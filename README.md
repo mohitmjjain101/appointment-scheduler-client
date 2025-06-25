@@ -1,6 +1,11 @@
-# 🚀 Vite + React Starter
+# 🚀 Appointment Scheduler Client
 
-A lightweight and blazing-fast React project setup using [Vite](https://vitejs.dev/) for lightning-fast development and optimized builds.
+A React vite application to book appointment
+
+## Functionality
+1. user can Login/Singup using email address and password
+2. Jwt based authentication
+3. user can Book/Update/Delete appointment
 
 ---
 
