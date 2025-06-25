@@ -50,7 +50,7 @@ project-root/<br />
 
 ```bash
 git clone https://github.com/mohitmjjain101/appointment-scheduler-client
-cd your-project-name
+cd appointment-scheduler-client
 ```
 
 ### 2. Install the dependency
