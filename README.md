@@ -6,28 +6,28 @@ A lightweight and blazing-fast React project setup using [Vite](https://vitejs.d
 
 ## 📂 Project Structure
 
-project-root/
-├── dist/ # Production build output
-├── node_modules/
-├── public/ # Static assets
-├── src/
-│ ├── api/ # API utility modules
-│ ├── assets/ # Images, icons, etc.
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Page-level React components
-│ ├── store/ # State management logic (e.g., Redux)
-│ ├── App.jsx # Root component
-│ ├── App.css # App-specific styling
-│ ├── index.css # Global styles
-│ └── main.jsx # React app entry point
-├── index.html # Main HTML template
-├── package.json
-├── tailwind.config.js # TailwindCSS config
-├── postcss.config.js # PostCSS setup for Tailwind
-├── vite.config.js # Vite configuration
-├── eslint.config.js # Linting rules
-├── .gitignore
-└── README.md
+project-root/<br />
+├── dist/ # Production build output<br />
+├── node_modules/<br />
+├── public/ # Static assets<br />
+├── src/<br />
+│ ├── api/ # API utility modules<br />
+│ ├── assets/ # Images, icons, etc.<br />
+│ ├── components/ # Reusable UI components<br />
+│ ├── pages/ # Page-level React components<br />
+│ ├── store/ # State management logic and slices (e.g., Redux)<br />
+│ ├── App.jsx # Root component<br />
+│ ├── App.css # App-specific styling<br />
+│ ├── index.css # Global styles<br />
+│ └── main.jsx # React app entry point<br />
+├── index.html # Main HTML template<br />
+├── package.json<br />
+├── tailwind.config.js # TailwindCSS config<br />
+├── postcss.config.js # PostCSS setup for Tailwind<br />
+├── vite.config.js # Vite configuration<br />
+├── eslint.config.js # Linting rules<br />
+├── .gitignore<br />
+└── README.md<br />
 
 ## ⚙️ Tech Stack
 
