@@ -1,5 +1,5 @@
 {
-  "name": "appointment-client",
+  "name": "appointment-scheduler-client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
