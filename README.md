@@ -1,12 +1,63 @@
-# React + Vite
+# 🚀 Vite + React Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight and blazing-fast React project setup using [Vite](https://vitejs.dev/) for lightning-fast development and optimized builds.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
 
-## Expanding the ESLint configuration
+project-root/
+├── dist/ # Production build output
+├── node_modules/
+├── public/ # Static assets
+├── src/
+│ ├── api/ # API utility modules
+│ ├── assets/ # Images, icons, etc.
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page-level React components
+│ ├── store/ # State management logic (e.g., Redux)
+│ ├── App.jsx # Root component
+│ ├── App.css # App-specific styling
+│ ├── index.css # Global styles
+│ └── main.jsx # React app entry point
+├── index.html # Main HTML template
+├── package.json
+├── tailwind.config.js # TailwindCSS config
+├── postcss.config.js # PostCSS setup for Tailwind
+├── vite.config.js # Vite configuration
+├── eslint.config.js # Linting rules
+├── .gitignore
+└── README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Tech Stack
+
+- **React 18**
+- **Vite**
+- **TailwindCSS**
+- **PostCSS**
+- **ESLint**
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/mohitmjjain101/appointment-scheduler-client
+cd your-project-name
+```
+
+### 2. Install the dependency
+
+npm install
+npm run dev
+```
+
+### 3. Run the Application
+Open http://localhost:5173 to view it in the browser.
+
+### 4. Build Production
+```
+npm run build
+```
