@@ -54,7 +54,7 @@ cd appointment-scheduler-client
 ```
 
 ### 2. Install the dependency
-
+```
 npm install
 npm run dev
 ```
@@ -63,6 +63,7 @@ npm run dev
 Open http://localhost:5173 to view it in the browser.
 
 ### 4. Build Production
+
 ```
 npm run build
 ```
